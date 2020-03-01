@@ -931,6 +931,10 @@ Buttons
     background: #868e96;
     opacity: 0.7;
     border: 1px solid #868e96; }
+    .btn-secondary-active {
+      background: #868e96;
+      opacity: 0.7;
+      border: 1px solid #868e96; }
   .btn-secondary.active, .btn-secondary:focus,
   .btn-secondary.disabled.active,
   .btn-secondary.disabled:focus {
@@ -1677,7 +1681,9 @@ dropdown-item
 Custom-select
 ******************/
 .custom-select {
-  background: url(../../assets/images/custom-select.png) right 0.75rem center no-repeat; }
+  background: url(../../assets/images/custom-select.png) right 0.75rem center no-repeat;
+  background-color: #fff;
+}
 
 /*******************
 textarea
@@ -2200,7 +2206,7 @@ ul#themecolors {
  page title
 *******************/
 .page-titles {
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
 
 /*******************
  Footer
@@ -4925,6 +4931,7 @@ Error Page
     font-weight: 900;
     line-height: 210px; }
 
+
 /*******************
 google map Page
 ******************/
@@ -6731,3 +6738,138 @@ File: scss
     width: 100%; }
     .dataTables_wrapper .dataTables_paginate .paginate_button {
       padding: 0.5rem 0.5rem; } }
+
+
+
+  .box-title{
+    margin-bottom: 20px;
+  }
+
+  .saving-body{
+    padding-top: 5%;
+   }
+    .saving-link{
+      padding-right: 20px;
+    }
+
+  .text-underline{
+    text-decoration: underline;
+  }
+
+.benefits-section{
+  padding-bottom: 10%;
+}
+.benefits-img{
+  width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #ddd;
+}
+.benefits-img > img{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.btn-outline-theme-active {
+  color: #fff;
+  border-color: #6c757d;
+  background-color: #296dc1;
+}
+.btn-outline-theme-active:hover {
+  color: #fff;
+}
+.btn-outline-theme {
+  color: #296dc1;
+  border-color: #296dc1;
+}
+
+.btn-outline-theme:hover {
+  color: #fff;
+  border-color: #296dc1;
+  background-color: #296dc1; 
+}
+.btn-light-active{
+  color: #212529;
+    background-color: #dae0e5;
+    border-color: #d3d9df;
+}
+
+.txt-end{
+  text-align: end;
+}
+.explore-fund-table tbody tr  td{
+  border: 0 !important;
+}
+
+.no-border-table tbody tr  td{
+  border: 0 !important;
+}
+.bg-green{
+  background-color: #9ce09c;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+p.no-span {
+  display: table;
+  white-space: nowrap;
+}
+p.no-span:after {
+  border-top: 1px solid #dee2e6;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 100%;
+}
+p.no-span:before {
+  right: 1.5%;
+}
+.badge-text{
+  font-size: 13px;
+    padding: 5px 10px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+.card-header-theme {
+  background-color: #203c8f;
+}
+
+.Portfolio-table thead tr th{
+  padding-bottom: 0;
+}
+
+.Portfolio-tab .nav-link{
+  border: 1px solid #ddd;
+}
+.Portfolio-tab >.nav-item > .nav-link
+{
+  background: #f2f7f8;
+  color:#2e2e2e;
+  font-weight: 400;
+}
+.Portfolio-tab >.nav-item > .nav-link.active
+{
+  background: #fff;
+  
+}
